@@ -1,0 +1,315 @@
+
+.rectClass{
+  background-color:#FFFBF7;
+  object-fit:auto;
+  object-position:auto;
+}
+
+.text-my-own-color {
+    color:#22262B !important;
+}
+
+.para{
+  color:#063d81;
+  line-height:35px;
+  font-weight:normal;
+  text-align:left;
+}
+
+/* .animation {
+  transform: translateY(-10px);
+} */
+
+.dropdown-content {
+  display: none;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content li {
+  padding: 9px;
+}
+.dropdown-content li a {
+  color: #000;
+  font-size: 13px;
+}
+@media only screen and (max-width:768px)
+{ 
+   .appfeature{
+     display: none;
+   }
+}
+@media only screen and (min-width:768px)
+{ 
+  .appfeature1{
+    display: none;
+  }
+}
+
+@media only screen and (min-width:1200px)
+{
+  .home {margin-left:-50px} }
+
+@media only screen and (max-width:768px)
+{
+  .storeimg{ width:250px;height:220px;margin-left:43px;}
+}
+
+@media only screen and (max-width:768px)
+{
+  .brand {width:100px;height:30;} }  
+
+@media only screen and (min-width:1200px)
+{
+  .home1 {margin-left:-70px} }  
+
+div.bgimg {
+  background-image: url("../images/a.png");
+  background-repeat:no-repeat;
+  background-size:3000px 1100px;
+}  
+
+@media only screen and (max-width: 768px)
+{ div.bgimg {
+  background-image: url("../images/Group 12245.png");
+  object-fit:fill;
+  background-size:1350px 1900px;
+  background-repeat: no-repeat;
+}  }
+
+div.bgimg1 {
+  background-image: url("../images/Quiz Money.png");
+  object-fit:fill;
+  background-size:1550px 1530px;
+  background-position:40px 10px; 
+  background-repeat: no-repeat;
+} 
+ 
+div.bgimg2 {
+  background-image: url("../images/Group 12241.png");
+  object-fit:auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  background-size:1200px 465px;
+  background-position:120px 55px;
+}
+
+@media only screen and (max-width: 768px)
+{ div.bgimg8 {
+  background-image: url("../images/Group 12230.png");
+  object-fit:auto;
+  background-size:auto;
+  background-repeat: no-repeat;
+} } 
+ 
+div.bgimg8 {
+  background-image: url("../images/Group 12230.png");
+  object-fit:auto;
+  background-size:1200px 310px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  background-position:100px 50px;
+}
+
+@media only screen and (max-width: 768px)
+{
+  div.bgimg3 {
+  background-image: url("../images/Group 12226.png");
+  object-fit:auto;
+  background-size:400px 1200px;
+  background-repeat: no-repeat;
+}
+}
+
+div.bgimg3 {
+  background-image: url("../images/Group 12226.png");
+  object-fit:auto;
+  background-size:1350px 480px;
+  background-repeat: no-repeat;
+  background-position:30px 25px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  
+} 
+
+div.bgimg4 {
+  background-image: url("../images/Money Bag.png");
+  object-fit:auto;
+  background-size:2010px 1700px;
+  background-position:-280px -200px;
+  background-repeat: no-repeat;
+} 
+
+div.bgimg5 {
+  background-image: url("../images/Group 12217.png");
+  object-fit:auto;
+  background-size: 1250px 420px;
+  background-position:50px 1px;
+  background-repeat:no-repeat;
+}
+
+div.bgimg6 {
+  background-image: url("../images/Group 12248.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 1300px 300px;
+  background-position:30px 5px;
+}
+
+div.bgimg7 {
+  background-image: url("../images/Group 12230.png");
+  object-fit:auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: auto;
+}
+
+span.icon1 { background-image: url("../images/location.png");
+             height:20px;
+             width:20px;
+             display: block; }
+
+body { scroll-behavior: smooth; } 
+html { scroll-behavior: smooth; }   
+
+.font { font-family:Poppins; } 
+
+ul.a  { list-style-type: circle;
+        }                  
+
+footer { position: relative;
+         background-color: #FBFBFB; 
+         padding-top: 40px;
+         padding-right:40px;
+         padding-left:40px;}
+
+ul.no-bullets {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 768px)
+{ ul.foot { margin-left:-40px;
+            width:230px;}  }
+
+@media only screen and (max-width: 768px)
+{ ul.foot { margin-left:-40px;
+            width:230px;}  }            
+
+@media only screen and (min-width: 768px)
+{ img.navb { padding-left:0px; 
+             width: 200px;
+             height: 60px;
+} }            
+
+@media only screen and (max-width: 280px)
+{ h4.a { font-size:7vw } }
+
+@media only screen and (max-width: 768px)
+{ .text { font-size:4.8vw; } }
+
+.font1 { font-size:16px;
+          line-height:34px;
+          color:#22262B; }
+
+.font2 { 
+          line-height:50px;
+          color:#22262B; } 
+
+.font3 { color:#22262B; }  
+.marginClassForFirst{
+      margin-top: 40px;
+    }
+
+@media only screen and (max-width: 768px)
+{
+  .copy1 { margin-top:80px;  }
+}  
+
+.getPara{
+  font-size:20px;
+          line-height:34px;
+          color:#696969;
+  /*text-align: justify;
+  font-size:30px
+  font-family: 'Roboto';
+letter-spacing: 0px;
+color:  #696969;
+line-height: 2.0;*/
+}   
+ .h3SubClass{
+      margin-top:50px;
+  font-family: 'Be Vietnam';
+letter-spacing: 0px;
+font-weight: bold;
+color: #3A23F8;
+opacity: 1;
+    }   
+
+ .h3Class{
+      margin-top: 100px;
+  font-family: 'Be Vietnam', sans-serif;
+letter-spacing: 0px;
+font-weight: bold;
+color: #5C3FF7;
+opacity: 1;
+    }         
+              
+    .file-field input[type="file"] {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+      filter: alpha(opacity=0);
+      opacity: 0;
+  }  
+  
+  
+  .file-input-wrapper {
+
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .file-input-wrapper>input[type="file"] {
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+
+  .my-icon{
+    float: right;
+  }
+  
+  /* .file-input-wrapper>.btn-file-input {
+    background-color: #494949;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 0 0 -1px;
+    padding-left: 0;
+    cursor: pointer;
+  }
+  
+  .file-input-wrapper:hover>.btn-file-input {
+    background-color: #494949;
+  } */
